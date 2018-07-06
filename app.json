@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/citychoose/citychoose",
+    "pages/settings/settings",
+    "pages/systeminfo/systeminfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2f3b53",
+    "navigationBarTitleText": "Weather",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#73d0f4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/home_n.png",
+        "selectedIconPath": "assets/images/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "assets/images/info_black.png",
+        "selectedIconPath": "assets/images/info_blue.png",
+        "text": "关于"
+      },
+      {
+        "pagePath": "pages/citychoose/citychoose",
+        "iconPath": "assets/images/city_black.png",
+        "selectedIconPath": "assets/images/city_blue.png",
+        "text": "选择城市"
+      },
+      {
+        "pagePath":"pages/settings/settings",
+        "iconPath": "assets/images/box_n.png",
+        "selectedIconPath": "assets/images/box.png",
+        "text": "设置"
+      },
+      {
+        "pagePath": "pages/systeminfo/systeminfo",
+        "iconPath": "assets/images/system_black.png",
+        "selectedIconPath": "assets/images/system_blue.png",
+        "text": "系统信息"
+      }
+    ]
+  }
+}
